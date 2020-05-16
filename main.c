@@ -1,5 +1,6 @@
 #include "rom_load.h"
 #include "utils.h"
+#include "bootrom.h"
 
 #include <stdio.h>
 

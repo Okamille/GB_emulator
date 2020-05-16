@@ -16,9 +16,4 @@ union Register
     
 };
 
-Register registerAF;
-Register registerBC;
-Register registerDE;
-Register registerHL;
-
 #endif

@@ -17,3 +17,17 @@ This emulator is for educational purposes, the documentation on which it is base
 * 0xFF00 - 0xFF4B : I/O Ports
 * 0xFF4C - 0xFF7F : Empty (unsuable for I/O)
 * 0xFF80 - 0xFFFF : Internal RAM
+
+## Registers
+
+The gameboy has 8 registers A, B, C, D, E, F, H, L which can hold 8-bit variables.
+To handle 16 bits operations, these registers can be paired (AF / BC / DE / HL)
+
+## Flags
+
+The gameboy has 4 flags (half-carry, substracted, ...) Z = 7 / N = 6/ H = 5 / C = 4 and are located in the F register.
+
+## Program counter and stack
+
+Program counter : address of the next instruction to execute
+Stack : LIFO that holds the memory where data is retrieved from.
